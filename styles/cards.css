@@ -1,10 +1,11 @@
 .cards{
     display: flex;
+    align-content: center;
     width: 80%;
 }
 
 .card12{
-    align-items: center;
+    display: flexbox;
     margin: 3em 0em;
 }
 
@@ -36,23 +37,18 @@
     color: var(--rosa);
 }
 
-@media screen and (min-width:1024px){
-
-    #card, #card-2{
-        width: 100%;
-
-    }
-
-    .card12{
-        width: 60%;
-    }
-}
 
 
 @media screen and (min-width:1024px){
+
+    .cards{
+        width: 35%;
+        justify-content: space-between;
+    }
+
 
     .descrição__titulo{
-        font-size: 32px;
+        font-size: 26px;
     }
 
     .descrição__texto{
@@ -60,11 +56,12 @@
     }
 
     .descrição{
-        margin-right: 2em;
+        margin: 1em;
     }
 
     #card, #card-2{
-        width: 40%;
-        margin-left: 3em;
+        margin: 3em;
+        padding: 1.5em 0 ;
+        align-content: center;
     }
 }
