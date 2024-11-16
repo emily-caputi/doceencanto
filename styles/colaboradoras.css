@@ -8,6 +8,33 @@
     padding: 0.5em 0;
 }
 
+.todas_colaboradoras{
+    display: flexbox;
+}
+
+.todas_colaboradoras{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    margin: 2em 0;
+}
+
+.colaboradora{
+    align-items: center;
+    text-align: center;
+    margin: 1em 0;
+}
+
+.imagem-colaboradora{
+    width: 70px;
+    height: 70px;
+    border-radius: 360px;
+}
+
+.nome{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--rosa);
+}
 
 
 @media screen and (min-width:1024px){
@@ -17,8 +44,14 @@
 
     .todas_colaboradoras{
         display: grid;
-        grid-template-columns: 25%, 25%, 25%, 25%;
-        margin: 1em;
+        grid-template-columns: 20% 20% 20% 20% 20%;
+        margin: 4em 0;
+    }
+
+    .colaboradora{
+        align-items: center;
+        text-align: center;
+        margin: 1em 0;
     }
 
     .imagem-colaboradora{
@@ -29,7 +62,5 @@
 
     .nome{
         font-size: 20px;
-        font-weight: 400;
-        color: var(--rosa);
     }
 }

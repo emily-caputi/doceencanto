@@ -1,15 +1,12 @@
 .cards{
     display: flex;
-    align-items: center;
-    width: 100%;
+    width: 80%;
 }
 
 .card12{
-    align-content: center;
+    align-items: center;
     margin: 3em 0em;
-
 }
-
 
 .card__descrição{
     margin: 0.5em;
