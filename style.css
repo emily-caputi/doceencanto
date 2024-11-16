@@ -2,9 +2,10 @@
 @import url("styles/carousel.css");
 @import url("styles/banner.css");
 @import url("styles/carrossel.css");
-@import url("styles/tópicos.css");
+@import url("styles/cards.css");
 @import url("styles/contato.css");
 @import url("styles/rodapé.css");
+@import url("styles/colaboradoras.css");
 
 :root{
     --cor-de-fundo: #EBECEE;
@@ -19,6 +20,7 @@
     --cinza: #474646;
     --cinza-claro: #858585;
     --rosa-claro: #ffd4d4 ;
+    --rosa: #dd006f;
 
 }
 

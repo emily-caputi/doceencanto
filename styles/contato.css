@@ -1,11 +1,11 @@
 .contato{
-    background-color: var(--branco);
+    background-color: var(--rosa-claro);
     padding: 1em;
 }
 
 .contato__titulo,
 .contato__texto{
-    background: var(--azul-degrade);
+    background: var(--rosa-degrade);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -23,16 +23,15 @@
 
 .contato__email{
     padding: 1em;
-    border: 1px solid var(--azul);
+    border: 1px solid var(--azul-claro);
     border-radius: 24px;
     width: 90%;
-    color: var(--azul);
+    color: var(--azul-claro);
 }
 
 .contato__email:holder{
     font-family: var(--fonte-principal);
-    color: var(--azul);
-    background: url(../img/email.svg) no-repeat;
+    color: var(--azul-claro);
     padding-left: 2em;
 }
 

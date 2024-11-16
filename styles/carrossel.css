@@ -1,11 +1,11 @@
 .carrossel__titulo{
-    color: var(--laranja);
+    color: var(--azul-claro);
     background-color: var(--branco);
     text-align: center;
     text-transform: uppercase;
     font-size: 18px;
     font-weight: 700;
-    padding: 1em 0 0.5em 0;
+    padding: 0.5em 0;
 }
 
 .swiper-slide img{
@@ -22,7 +22,13 @@
     margin: 0.5em 0;
 }
 
-.card__descrição{
+.caixa-card{
+    display: flex ;
+    align-content: center;
+
+}
+
+.card__descrição1{
     display: flex;
     justify-content: space-between;
     margin-bottom: 0.5em;
@@ -37,7 +43,7 @@
     display: flex;
 }
 
-.card{
+.carde{
     background: var(--branco);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
@@ -45,19 +51,16 @@
     padding: 1em;
 }
 
-.descrição__titulo{
-    color: var(--laranja);
+
+.descrição__titulo1{
+    text-align: center;
+    color: var(--azul);
+    font-size: 18px;
     font-weight: 700;
+    margin: 0.5em 0;
 }
 
-.descrição__titulo-livro{
-        color: var(--azul);
-        font-size: 18px;
-        font-weight: 700;
-        margin: 0.5em 0;
-}
-
-.descrição__texto{
+.descrição__texto1{
     font-size: 14px;
 }
 
@@ -96,6 +99,11 @@
         display: block ;
         top: 60%;
     }
+    
+    .carde{
+        width: 60%;
+        align-content: center;
+    }
 
 }
 
@@ -115,19 +123,19 @@
         width: 50%;
     }
 
-    .descrição__titulo{
+    .descrição__titulo1{
         font-size: 32px;
     }
 
-    .descrição__texto{
+    .descrição__texto1{
         font-size: 16px;
     }
 
-    .descrição{
+    .descrição1{
         margin-right: 2em;
     }
 
-    .card{
+    .carde{
         width: 40%;
         margin-left: 3em;
     }

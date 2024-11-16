@@ -1,0 +1,15 @@
+.colaboradoras__titulo{
+    color: var(--azul-claro);
+    background-color: var(--branco);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 0.5em 0;
+}
+
+@media screen and (min-width:1024px){
+    .colaboradoras__titulo{
+        font-size: 26px;
+    }
+}

@@ -5,6 +5,7 @@
     background-repeat: no-repeat;
     background-position: center;
     display: inline-block;
+    z-index: 2;
 }
 
 .cabeçalho{
@@ -13,6 +14,7 @@
     justify-content: space-between;
     align-items:center;
     position: relative;
+    z-index: 2;
 }
 
 .container{
@@ -42,7 +44,7 @@
 }
 
 .lista-menu__titulo{
-    color: var(--laranja);
+    color: var(--rosa);
     font-weight: 700;
 }
 
@@ -52,6 +54,7 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-transform: uppercase;
+    margin: auto;
 }
 
 .logo{

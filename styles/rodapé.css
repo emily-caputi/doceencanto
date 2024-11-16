@@ -3,12 +3,12 @@ hr{
 }
 
 .rodapé{
-    background-color: var(--branco);
+    background-color: var(--rosa);
     padding: 1em;
     text-align: center;
 }
 
 .rodapé__titulo{
     font-size: 20px;
-    color: blueviolet;
+    color: var(--branco);
 }
