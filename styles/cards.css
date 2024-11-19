@@ -1,12 +1,6 @@
 .cards{
-    display: flex;
-    align-content: center;
-    width: 80%;
-}
-
-.card12{
     display: flexbox;
-    margin: 3em 0em;
+    width: 100%;
 }
 
 .card__descrição{
@@ -19,7 +13,7 @@
     border-radius: 10px;
     margin: 2em 1em;
     padding: 1em;
-    width: 100%;
+    align-items: center;
 }
 
 .descrição__titulo{
@@ -42,8 +36,8 @@
 @media screen and (min-width:1024px){
 
     .cards{
-        width: 35%;
-        justify-content: space-between;
+        width: 100%;
+
     }
 
 
